@@ -279,7 +279,7 @@ export class Config implements IConfig {
     public mixinLimits: MixinLimits = new MixinLimits([
         /* Height: 1,470,000, */
         new MixinLimit(1470000, 0, 3, 1),
-    ], 1
+    ], 1);
 
     /**
      * The length of a standard address for your coin
